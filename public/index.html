@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <link href="https://fonts.googleapis.com/css?family=Changa|Philosopher&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.1/css/all.css" /> 
+
+    <title>Darjeeling</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+    <section class="my-5">
+      <div class="py-5">
+        <h2 class="text-center">About us</h2>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-12">
+            <img src="image/c3.jpg" class="img-fluid aboutimg">
+          </div>
+          <div class="col-lg-6 col-md-6 col-12">
+            <h2 class="display-4">Darjeeling.</h2>
+               <p class="py-3">Darjeeling (Bengali: [dardʒiliŋ], Nepali: [dardziːliŋ]) is a city and a municipality in the Indian state of West Bengal. It is located in the Lesser Himalayas at an elevation of 6,700 ft (2,042.2 m). It is noted for its tea industry, its views of Kangchenjunga, the world's third-highest mountain, and the Darjeeling Himalayan Railway, a UNESCO World Heritage Site. Darjeeling is the headquarters of the Darjeeling district which has a partially autonomous status within the state of West Bengal. It is also a popular tourist destination in India.</p>
+            <a href="about.php" class="btn btn-success">know more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="my-5">
+      <div class="py-5">
+        <h2 class="text-center">Contact us</h2>
+      </div>
+      <div class="w-50 m-auto">
+      <form action="userinfo.php" method="post">
+        <div class="form-group">
+          <label>User Name</label>
+          <input type="text" name="user" class="form-control">
+        </div><div class="form-group">
+          <label>Email</label>
+          <input type="email" name="email" class="form-control">
+        </div>
+        
+        <div class="form-group">
+          <label>Mobile</label>
+          <input type="text" name="mobile" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>Comment</label>
+          <textarea class="form-control" name="comment">
+            
+          </textarea>
+        </div>
+         <button type="submit" class="btn btn-success">Submit</button>
+        
+        
+      </form>
+    </div>
+    </section>
+
+
+    
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <footer>
+      <p class="p-3 bg-dark text-white text-center">ankitxtri@gmail.com</p>
+    </footer>
+  </body>
+</html>
